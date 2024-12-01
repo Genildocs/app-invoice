@@ -12,6 +12,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LogoComponent } from './components/logo/logo.component';
+import { NotInvoicesComponent } from './components/not-invoices/not-invoices.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { LogoComponent } from './components/logo/logo.component';
     NavComponent,
     FooterComponent,
     LogoComponent,
+    NotInvoicesComponent,
   ],
   imports: [
     BrowserModule,

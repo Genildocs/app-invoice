@@ -1,11 +1,16 @@
 <nav>
-  <div class="flex items-center gap-2">
-    <div class="flex items-center">
+  <div class="flex lg:flex-col items-center">
+    <div class="flex items-center mr-5">
       <button (click)="darkMode()">
+        @if (darkModeOn) {
         <svg-icon src="./../../assets/icon-moon.svg"></svg-icon>
+        }@else{
+        <svg-icon src="./../../assets/icon-sun.svg"></svg-icon>
+        }
       </button>
     </div>
-    <div>
+    <div class="w-[1px] h-[72px] bg-custom-mistyBlue opacity-50"></div>
+    <div class="p-5">
       <img
         src="../../../assets/image-avatar.jpg"
         alt="avatar"

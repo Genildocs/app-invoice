@@ -17,6 +17,6 @@
 
 @layer base {
   body {
-    @apply !font-spartan dark:bg-black dark:text-white lg:flex;
+    @apply !font-spartan dark:bg-black dark:text-white;
   }
 }
