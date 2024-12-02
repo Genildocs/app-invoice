@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import { FormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ButtonNewInvoiceComponent } from './components/button-new-invoice/button-new-invoice.component';
@@ -13,7 +13,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { NotInvoicesComponent } from './components/not-invoices/not-invoices.component';
-
+import { RouterLink, RouterLinkActive } from '@angular/router';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +30,10 @@ import { NotInvoicesComponent } from './components/not-invoices/not-invoices.com
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     AngularSvgIconModule.forRoot(),
+    RouterLink,
+    RouterLinkActive,
   ],
   providers: [],
   bootstrap: [AppComponent],
