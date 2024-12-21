@@ -19,4 +19,8 @@
   body {
     @apply !font-spartan min-h-screen dark:bg-black dark:text-white;
   }
+
+  input {
+    @apply dark:placeholder:text-custom-darkBlue dark:bg-custom-darkBlue;
+  }
 }

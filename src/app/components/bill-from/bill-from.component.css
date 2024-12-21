@@ -1,0 +1,18 @@
+input {
+  border: 1px solid rebeccapurple;
+  outline: none;
+  border-radius: 3px;
+  padding: 0.3rem 0;
+  padding-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+input::placeholder {
+  font-weight: 800;
+  font-family: inherit;
+}
+
+label {
+  color: #7e88c3;
+  font-weight: 400;
+}

@@ -14,6 +14,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { NotInvoicesComponent } from './components/not-invoices/not-invoices.component';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { CreateInvoiceComponent } from './pages/create-invoice/create-invoice.component';
+import { BillFromComponent } from './components/bill-from/bill-from.component';
+import { EditInvoiceComponent } from './pages/edit-invoice/edit-invoice.component';
+import { BillToComponent } from './components/bill-to/bill-to.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +29,10 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
     FooterComponent,
     LogoComponent,
     NotInvoicesComponent,
+    CreateInvoiceComponent,
+    BillFromComponent,
+    EditInvoiceComponent,
+    BillToComponent,
   ],
   imports: [
     BrowserModule,
